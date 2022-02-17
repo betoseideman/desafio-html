@@ -11,7 +11,7 @@
 <body>
     <header>
         <nav>
-            <h2>DSPlay Games</h2>
+            <h1>DSPlay Games</h1>
             <ul>
                 <li> <a href="#news"> Notícias</a></li>
                 <li> <a href="#games"> Jogos</a></li>
@@ -26,10 +26,12 @@
     <main>
         <section id="news">
             <h1>Ultímas notícias</h1>
-            <header>
-                <h3>Título principal da notícia</h3>
-                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vitae ducimus aperiam.</h4>
-                <p>23/02/2022</p>
+            <article>
+                <header>
+                    <h2>Título principal da notícia</h2>
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vitae ducimus aperiam.</h4>
+                    <p>23/02/2022</p>
+                </header>
                 <div>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vitae ducimus aperiam.
@@ -47,11 +49,13 @@
                     </p>
                 </div>
                 <input type="button" value="leia mais">
-            </header>
-            <header>
-                <h3>Título principal da notícia</h3>
-                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vitae ducimus aperiam.</h4>
-                <p>23/02/2022</p>
+            </article>
+            <article>
+                <header>
+                    <h3>Título principal da notícia</h3>
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vitae ducimus aperiam.</h4>
+                    <p>23/02/2022</p>
+                </header>
                 <div>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vitae ducimus aperiam.
@@ -69,7 +73,7 @@
                     </p>
                 </div>
                 <input type="button" value="leia mais">
-            </header>
+            </article>
             <div>
                 <input type="button" value="Carregar mais">
             </div>
@@ -107,46 +111,49 @@
         </section>
         <section id="signup">
             <h1>Faça sua inscrição</h1>
-            <header>
-                <form action="obrigado.html">
-                    <div>
-                        <input id="ctrl-name" name="name" type="text" placeholder="Digite seu nome">
+            <form action="obrigado.html">
+                <div>
+                    <input id="ctrl-name" name="name" type="text" placeholder="Digite seu nome">
+                </div>
+                <div>
+                    <input id="ctrl-email" name="email" type="email" placeholder="Digite seu email">
+                </div>
+                <div>
+                    <label for="ctrl-platform">Qual sua plataforma preferida?</label>
+                    <div id="ctrl-platform">
+                        <input type="radio" name="platform" id="ctrl-platform-1">
+                        <label for="ctrl-lavel-1">PC</label>
+                        <input type="radio" name="platform" id="ctrl-platform-2">
+                        <label for="ctrl-lavel-2">Xbox</label>
+                        <input type="radio" name="platform" id="ctrl-platform-3">
+                        <label for="ctrl-lavel-3">Playstation</label>
                     </div>
-                    <div>
-                        <input id="ctrl-email" name="email" type="email" placeholder="Digite seu email">
-                    </div>
-                    <div>
-                        <label for="ctrl-platform">Qual sua plataforma preferida?</label>
-                        <div id="ctrl-platform">
-                            <input type="radio" name="platform" id="ctrl-platform-1">
-                            <label for="ctrl-lavel-1">PC</label>
-                            <input type="radio" name="platform" id="ctrl-platform-2">
-                            <label for="ctrl-lavel-2">Xbox</label>
-                            <input type="radio" name="platform" id="ctrl-platform-3">
-                            <label for="ctrl-lavel-3">Playstation</label>
-                        </div>
-                    </div>
-                    <div>
-                        <input itemid="ctrl-languages-java" name="language1" type="checkbox">
-                        <label for="ask">Desejo receber novidades por email</label>
-                    </div>
-                    <div>
-                        <input type="submit" value="Enviar">
-                        <input type="reset" value="Limpar">
-                    </div>
-                </form>
-            </header>
+                </div>
+                <div>
+                    <input itemid="ctrl-languages-java" name="language1" type="checkbox">
+                    <label for="ask">Desejo receber novidades por email</label>
+                </div>
+                <div>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </div>
+            </form>
         </section>
-
-
-
-
-
-
-
-
     </main>
-
+    <footer>
+        <div>
+            <div>
+                <a href="https://www.instagram.com/devsuperior.ig/">@dsplaygames</a> <br>
+                <a href="https://www.facebook.com/groups/1021018145117544">/dsplaygames</a>
+            </div>
+            <div>
+                <h6>DS Play Games Ltda. Todos direitos reservados</h6>
+            </div>
+            <div>
+                <a href="privacypolicies.html">Política de privacidade</a> <br>
+                <a href="termsofuse.html">Termos de uso</a>
+            </div>
+        </div>
+    </footer>
 </body>
-
 </html>
