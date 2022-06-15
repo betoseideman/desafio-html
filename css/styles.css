@@ -1,0 +1,158 @@
+
+:root {
+    --color--green: #38AF90;
+    --color-white:#fff;
+    --color--main: #E5E5E5;
+    --color-darkgray: #797979;
+    --color-card-titulo: #F0F0F0;
+
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins";
+}
+
+.nav-container {
+    background-color: var(--color--green);
+    width: 100%;
+    height: 100%;
+    color: var(--color-white);
+   
+}
+
+.nav-main {
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+}
+
+.nav-main h1 {
+    margin-left: 10px;
+    font-size: 18px;
+
+}
+
+
+.profile-avatar img {
+    width: 62px;
+    margin: 14px 10px 14px 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.menu-items {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-items li {
+    margin: 10px;
+    font-size: 14px;
+ }
+
+.main-container {
+    background-color: var(--color-white); 
+      
+    
+ }
+
+
+ #news {   
+    
+ }
+
+ .title-main h1{
+    color: var(--color-darkgray);
+    font-size: 24px;
+    margin: 40px 60px 0 60px;
+    display: flex;
+    justify-content: center;
+    
+ }
+
+ .noticia {
+    background-color: var(--color-card-titulo);
+    margin: 8px 10px 28px 10px; 
+ }
+
+ .noticia h2 {
+    color: var(--color--green);
+    font-size: 16px;
+    margin: 16px 12px 0 12px ;
+
+ }
+
+ .noticia h4 {
+    color: var(--color-darkgray);
+    font-size: 12px;
+    margin: 3px 12px 0 12px ;
+ }
+
+ .noticia p  {
+    
+    font-size: 10px;
+    margin: 3px 12px 0 12px ;
+ }
+
+ .date {
+    color: var(--color--green);
+ }
+
+
+
+
+ @media(min-width: 768px){
+    .nav-main h1 {
+        margin-left: 105px;
+        font-size: 24px;    
+    }
+
+    .profile-avatar img {
+        margin-right: 105px;
+    }
+
+    .title-main h1{
+        
+        font-size: 36px;
+        
+        
+     }
+
+    .noticia {
+        margin: 40px 105px 40px 105px; 
+     }
+
+     .noticia h2 {
+        font-size: 24px;
+        margin: 16px auto 0 40px ;
+    
+     }
+
+     .noticia h4 {
+        
+        font-size: 16px;
+        margin-left: 40px ;
+        
+     }
+
+     .noticia p  {
+    
+       
+        margin-left: 40px;
+     }
+ }
+
+ 
